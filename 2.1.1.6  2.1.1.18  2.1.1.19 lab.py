@@ -1,0 +1,21 @@
+print("Wlazl kotek na plotek")
+print("Kristina")
+
+print("Kurs","Programowania","w", sep="***", end="...")
+print("Pythonie")
+
+print("     *" )
+print("    * *" )
+print("   *   *" )
+print("  *     *" )
+print(" ***   ***" )
+print("   *   *" )
+print("   *   *" )
+print("   *****" )
+
+print("      *     \n     * *     \n    *   *\n   *     *")
+print("  *       *")
+print(" *         *")
+print("***       ***")
+print("  *       *")
+print("  *       *\n  *********")
