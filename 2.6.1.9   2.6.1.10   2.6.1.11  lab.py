@@ -17,9 +17,11 @@ print("y =", y)
 
 
 
-h = int(input("Czas startu (godziny): "))
+h = int(input("Czas startu (godziy): "))
 m = int(input("Czas startu (minuty): "))
 d = int(input("Czas trwania wydarzenia (minuty): "))
 
-print("Czas zakończenia:",((h*60)+m+d)/60)# wprowadź tutaj swój kod
-
+s=h*60+m+d
+g = (s//60)%24
+q = (s%60)
+print(g,":",q)
